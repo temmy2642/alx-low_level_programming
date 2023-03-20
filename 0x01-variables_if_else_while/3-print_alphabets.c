@@ -1,13 +1,15 @@
 #include <stdio.h>
 
 /**
- * main - this prints the alphabets upper and lower
+ * main - this prints the alaphabets in lower and upper case
  *
- * Return: thge return is 0
+ * Return: is always 0
  */
 
 int main(void)
 {
+	char i;
+
 	for (i = 'a'; i <= 'z'; i++)
 		putchar(i);
 	for (i = 'A'; i <= 'Z'; i++)
