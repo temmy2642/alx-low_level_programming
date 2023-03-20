@@ -1,7 +1,7 @@
-#incude <stdio.h>
+#include <stdio.h>
 
-int main()
+int main(void)
 {
-	putchar("Programming is like building a multilingual puzzle\n");
+	puts("\"Programming is like building a multilingual puzzle\n");
 	return(0)
 }
