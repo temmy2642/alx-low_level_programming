@@ -1,35 +1,27 @@
 #include <stdio.h>
+
 /**
- * print_fibonacci - prints the first n
- *
- * @n: parameter
- *
- * main - entry point
+ * main - main fonction
  *
  * Return: always 0
  */
 
-void print_fibonacci(int n)
+	int main(void)
 {
-	int i, first = 1, second = 2, next;
+	int a = 1, b = 2, c;
+	int i;
 
-	printf("%d, %d, ", first, second);
-	for (i = 3; i <= n; i++)
+	printf("%d, %d, ", a, b);
+
+	for (i = 2; i < 50; i++)
 	{
-		next = first + second;
-		printf("%d", next);
-		if (i != n)
-		{
-			printf(", ");
-		}
-		first = second;
-		second = next;
+		c = a + b;
+		printf("%d, ", c);
+		a = b;
+		b = c;
 	}
-	printf("\n");
-}
 
-int main(void)
-{
-	print_fibonacci(50);
+	printf("\n");
+
 	return (0);
 }
