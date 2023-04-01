@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * reverse_array -  it reverses elements of an array
- * @n: function parameter 
+ * @n: function parameter
  * @d: function parameter
  * Return: 0
  */
@@ -15,6 +15,6 @@ void reverse_array(int *a, int n)
 	{
 		j = a[i];
 		a[i] = a[n - 1 - i];
-		a[n - 1 -i] = j;
+		a[n - 1 - i] = j;
 	}
 }
