@@ -2,7 +2,7 @@
 
 /**
  * _strlen_recursion - will return the length of string
- * @s: pointer 
+ * @s: pointer
  * Return: the string length
  */
 
