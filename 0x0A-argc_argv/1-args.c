@@ -3,7 +3,7 @@
 /**
  * main - main function
  * @argc: parametre
- * #agrv: parameter
+ * @argv: parameter
  * Return: always 0
  */
 

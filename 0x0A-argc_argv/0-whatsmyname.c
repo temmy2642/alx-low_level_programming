@@ -4,7 +4,7 @@
 /**
  * main - main function
  * @argc: parameter
- * @agrv: the parameter
+ * @argv: the parameter
  * Return: will be 0
  */
 int main(int argc __attribute__((unused)), char *argv[])
