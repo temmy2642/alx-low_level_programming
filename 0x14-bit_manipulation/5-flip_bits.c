@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * flip_bits - main function 
+ * flip_bits - main function
  * @n: parameter1
  * @m: paraeter2
  *
